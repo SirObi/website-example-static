@@ -5,17 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <title>Document</title>
+  <title>Matt Damon fan page</title>
 </head>
 <body>
-
   <header>
-    <container-fluid>
+    <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!--<a href="/index.html" class="navbar-left"><img src="glasses.png" class="img-responsive"></a>-->
       <div class="row">
-        <div class="col-md-8">
-          <img src="example.jpg" />
+        <div class="col-sm-8">
+          <img src="glasses.png" class="img-responsive"/>
         </div>
         <div class="col-md-4">
             <h1>The Obi</h1>
@@ -25,49 +27,137 @@
       </div>
       <hr />
       </div>
-    </container-fluid>
+      </nav>
   </header>
 
-  <container>
+  <div class="container">
     <div class="row">
-      <div class="col-lg-3 offset-lg-3 text-center">
+      <div class="col-lg-4 text-center">
         <h2>
           Welcome, weary traveller!
         </h2>
-        <p>
+        <p id="introduction">
           This is a portfolio site where I show off my modest Frontend skills.<br/>
           And what better way to do that than by exploring the world's eighth wonder that is Matt Damon.<br/>
-          Let's start ourselves off with some questions:
-        </br/>
+          Here are some trivia about this great dude:
+        </br>
         </p>
       </div>
     </div>
+
     <div class="row">
-      <div class="col-lg-12 text-center">
-        <button data-toggle="collapse" data-target="#answer1">
+      <div class="col-lg-4 text-center">
         <div class="thumbnail">
+          <a data-toggle="collapse" data-target="#answer1" >
           <img src="matt_damon_chinese.jpg" class="img-responsive" />
           <div class="caption">
             <p>
               Is Matt Damon real?
             </p>
           </div>
+        </a>
           <div id="answer1" class="collapse">
             <p>
-              No, he's an actor.
+              I suppose we'll never know.
             </p>
           </div>
         </div>
-        </button>
       </div>
-
+      <div class="col-lg-4 text-center">
+        <div class="thumbnail">
+        <a data-toggle="collapse" data-target="#answer2">
+          <img src="team-america.jpg" class="img-responsive" />
+          <div class="caption">
+            <p>
+              The animated film 'Team America' poked tons of fun at Matt. How did he take it?
+            </p>
+          </div>
+        </a>
+          <div id="answer2" class="collapse">
+            <p>
+              He was actually delighted by it.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 text-center">
+        <div class="thumbnail">
+          <a data-toggle="collapse" data-target="#answer3" >
+          <img src="matt-damon-clever.jpg" class="img-responsive" />
+          <div class="caption">
+            <p>
+              Who is more clever: Matt or Dolph Lundgren?
+            </p>
+          </div>
+        </a>
+          <div id="answer3" class="collapse">
+            <p>
+              They actually have equally high IQ scores: 160!
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-  </container>
-  <footer>
-    <container-fluid>
+    <div class="row">
+      <div class="col-lg-4 text-center">
+        <div class="thumbnail">
+          <a data-toggle="collapse" data-target="#answer4" >
+          <img src="matt_damon_chinese.jpg" class="img-responsive" />
+          <div class="caption">
+            <p>
+              Is Matt Damon real?
+            </p>
+          </div>
+        </a>
+          <div id="answer4" class="collapse">
+            <p>
+              I suppose we'll never know.
+            </p>
+          </div>
+        </div>
+      </div>
 
-    </container-fluid>
-  </footer>
+      <div class="col-lg-4 text-center">
+        <div class="thumbnail">
+          <a data-toggle="collapse" data-target="#answer5" >
+          <img src="matt_damon_chinese.jpg" class="img-responsive" />
+          <div class="caption">
+            <p>
+              Is Matt Damon real?
+            </p>
+          </div>
+        </a>
+          <div id="answer5" class="collapse">
+            <p>
+              I suppose we'll never know.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 text-center">
+        <div class="thumbnail">
+          <a data-toggle="collapse" data-target="#answer6" >
+          <img src="matt_damon_chinese.jpg" class="img-responsive" />
+          <div class="caption">
+            <p>
+              Is Matt Damon real?
+            </p>
+          </div>
+        </a>
+          <div id="answer6" class="collapse">
+            <p>
+              I suppose we'll never know.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+      <footer>
+      </footer>
+
+
+    </div>
+
 </body>
 </html>
