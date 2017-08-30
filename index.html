@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
   <link rel="stylesheet" href="./css/style.css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -14,15 +15,15 @@
   <header>
     <nav class="navbar navbar-default">
     <div class="container-fluid">
-      <!--<a href="/index.html" class="navbar-left"><img src="glasses.png" class="img-responsive"></a>-->
       <div class="row">
         <div class="col-sm-8">
           <img src="glasses.png" class="img-responsive"/>
+          //TODO: replace this logo with a an 'MD' logo in the colour of the navigation bar text
         </div>
-        <div class="col-md-4">
-            <h1>The Obi</h1>
-            <h3>Frontend Enthusiast</h3>
-            <h3>Matt Damon fan</h3>
+        <div class="col-md-4" id="authorProfile">
+            <h3>Name: Obi</h3>
+            <h3>Job: Frontend Enthusiast</h3>
+            <h3>Mission: Popularize Matt Damon</h3>
         </div>
       </div>
       <hr />
@@ -32,12 +33,12 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-4 text-center">
+      <div class="col-lg-4-offset-4 text-center ">
         <h2>
           Welcome, weary traveller!
         </h2>
         <p id="introduction">
-          This is a portfolio site where I show off my modest Frontend skills.<br/>
+          This is a portfolio site where I present my modest Frontend skills.<br/>
           And what better way to do that than by exploring the world's eighth wonder that is Matt Damon.<br/>
           Here are some trivia about this great dude:
         </br>
@@ -49,7 +50,7 @@
       <div class="col-lg-4 text-center">
         <div class="thumbnail">
           <a data-toggle="collapse" data-target="#answer1" >
-          <img src="matt_damon_chinese.jpg" class="img-responsive" />
+          <img src="matt-damon-microphone.jpg" class="img-responsive" />
           <div class="caption">
             <p>
               Is Matt Damon real?
@@ -102,16 +103,17 @@
       <div class="col-lg-4 text-center">
         <div class="thumbnail">
           <a data-toggle="collapse" data-target="#answer4" >
-          <img src="matt_damon_chinese.jpg" class="img-responsive" />
+          <img src="matt-nasa.jpg" class="img-responsive" />
           <div class="caption">
             <p>
-              Is Matt Damon real?
+              What's Matt Damon doing here?
             </p>
           </div>
         </a>
           <div id="answer4" class="collapse">
             <p>
-              I suppose we'll never know.
+              Hanging out at the NASA Jet Propulsion Laboratory
+              <i class="fa fa-rocket" aria-hidden="true"></i>
             </p>
           </div>
         </div>
@@ -120,16 +122,16 @@
       <div class="col-lg-4 text-center">
         <div class="thumbnail">
           <a data-toggle="collapse" data-target="#answer5" >
-          <img src="matt_damon_chinese.jpg" class="img-responsive" />
+          <img src="matt-walk-of-fame.jpg" class="img-responsive" />
           <div class="caption">
             <p>
-              Is Matt Damon real?
+              Is Matt featured on the Hollywood walk of fame?
             </p>
           </div>
         </a>
           <div id="answer5" class="collapse">
             <p>
-              I suppose we'll never know.
+              Yes, since 2007 :)
             </p>
           </div>
         </div>
@@ -138,23 +140,33 @@
       <div class="col-lg-4 text-center">
         <div class="thumbnail">
           <a data-toggle="collapse" data-target="#answer6" >
-          <img src="matt_damon_chinese.jpg" class="img-responsive" />
+          <img src="oscar.jpg" class="img-responsive" />
           <div class="caption">
             <p>
-              Is Matt Damon real?
+              Did Matt ever win an Oscar?
             </p>
           </div>
         </a>
           <div id="answer6" class="collapse">
             <p>
-              I suppose we'll never know.
+              Outrageously enough, no. However, he got nominated 3 times.
             </p>
           </div>
         </div>
       </div>
     </div>
-      <footer>
-      </footer>
+    <hr />
+    <footer>
+      <div class="container" id="paddedFooter">
+        <div class="row">
+          <div class="col-lg-4-offset-4 text-center">
+            <p>Made with</p>
+            <p id="rhed"><i class="fa fa-beer" aria-hidden="true"></i><i class="fa fa-beer" aria-hidden="true"></i> in</p>
+            <p id="yello">Germany<i class="fa fa-beer" aria-hidden="true"></i></p>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
     </div>
