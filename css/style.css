@@ -1,25 +1,16 @@
-#introduction {
-  color: black;
-}
-
 #authorProfile {
   background: black;
 }
 
-.navbar {
-  background: black;
-  font-family: "Inconsolata", Georgia, Serif;
-  color: #1ec503;
-}
-
-.fa-rocket {
-  color: #1ec503;
+#introduction {
+  color: black;
 }
 
 #paddedFooter {
   padding-top: 20px;
   padding-bottom: 20px;
-  background: silver;
+  color: white;
+  background: black;
 }
 
 #rhed {
@@ -33,6 +24,16 @@
 .container-wide {
   margin: 0 auto;
   width: 100%;
+}
+
+.fa-rocket {
+  color: #1ec503;
+}
+
+.navbar {
+  background: black;
+  font-family: "Inconsolata", Georgia, Serif;
+  color: #1ec503;
 }
 
 .thumbnail img{
