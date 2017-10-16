@@ -1,4 +1,4 @@
-#authorProfile {
+#author-profile {
   background: black;
 }
 
@@ -6,19 +6,19 @@
   color: black;
 }
 
-#paddedFooter {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: white;
+.padded-footer {
   background: black;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 
-#rhed {
-  color: #ff0000;
+.rhed {
+  color: #f00;
 }
 
-#yello {
-  color: #ffcc00;
+.yello {
+  color: #fc0;
 }
 
 .container-wide {
@@ -32,14 +32,13 @@
 
 .navbar {
   background: black;
-  font-family: "Inconsolata", Georgia, Serif;
   color: #1ec503;
+  font-family: "Inconsolata", Georgia, Serif;
 }
 
-.thumbnail img{
-    width: 50%;
-    height: auto;
-    display: block;
-    border-color: black;
-    border-width: medium;
+.img-adjusted {
+  border: medium black;
+  display: block;
+  height: auto;
+  width: 50%;
 }
